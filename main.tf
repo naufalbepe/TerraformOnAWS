@@ -3,8 +3,8 @@ provider "aws" {
   region = "us-east-1"
   #note to self, use better tools instead of hardcoding the keys. this is a security vurnerabilities.
   #for now, I just created IAM user to limit the access. this key should be okay since in real scenario, I'm gonna limit them on the IAM. DO NOT USE ROOT.
-  access_key = "AKIAYQDITXU22JDVEOUX"
-  secret_key = "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"
+  access_key = "AKIAYQDITXU22JDZZZZZ"
+  secret_key = "A72kFQySirMynTah6gUJWSqQODde6P4y/qDDDDD"
 }
 # Creating a Security Group for WordPress
 resource "aws_security_group" "WS-SG" {
