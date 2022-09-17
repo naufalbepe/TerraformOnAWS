@@ -1,0 +1,100 @@
+Dear Naufal,
+ 
+Thanks for your application at Homo Digitalis. 
+As we seek highly driven consultants and learners we have HR  processes that are challenging and to sort out people who really wants to work with us and build our company.
+ 
+To streamline the process and to evaluate the practical knowledge, we have come up with two tasks.
+ 
+ 
+Here are 2 tasks for you:
+ 
+	1. Technical Task of implementing Terraform Code, using AWS.
+	2. Presentation in English with the Topic:      
+          Terraform and your solution and a rough duration of ten    
+          minutes. 
+ 
+Chose the level of technical depth as you see fit.
+ 
+Terms:
+The deadline of this task is 10 full days. We should receive the task result on the 11th day, after 
+“assignment” in form of an email. This email should contain a short description / documentation: 
+and a link to a GitHub Repository.
+ 
+Email: info@homodigitalis.tech
+ 
+For inquiries, I am available at the following email: 
+ 
+james.vornhagen@homodigitalis.tech, when 
+reaching out to, please specify your issue/question. If required, we can then schedule a quick 
+Chat/Call for clarification. 
+ 
+ 
+Task1 Description:
+ 
+ 
+A Cloud Engineer needs a broad knowledge in the chosen field (Cloud, etc), but also needs to be able to talk directly to clients.
+The engineer takes requirements from the clients and turns those into a cloud architecture.
+ 
+The challenge for a cloud engineer is to provide a solution that fits the client's needs and is secure.
+ 
+The client needs a Database which will be hosted on a VM itself, as it's a database not supported on RDS. Some Files will be stored on S3. For public facing website the client requires a web server instance. The client also has a processing Application, which crunches Data and puts it in the database. For this the client requires another VM. This task does not require the configuration of auto scaling features.
+ 
+Please note:
+	• No database needs to be installed.
+	• The web server can just be a hello world example
+	• Route53 configuration is not required
+	• S3 access must not be routed through the internet
+	• Security is an important requirement for the client
+	• As this is just a mock task, please just use t2.micro
+	• Think about network architecture
+	• Provide access to and from the internet for this task.
+ 
+Provide an architecture diagram, that shows how the AWS Account will look like (just provide a jpeg/png file), as well as the Terraform Code to provision this stack.
+ 
+The presentation will be about your solution and should walk us through your decisions.
+ 
+ 
+ 
+ 
+Task 2: Description:
+ 
+The second task is as briefly describe at the beginning a presentation around your Terraform solution as well as a round about of Terraform.
+ 
+It is not unusual, for a consultant to present the results of ones work, in some kind or another.
+That is why we ask you, to prepare a presentation around ansible with a duration of around ten 
+minutes. 
+ 
+Please feel free, to be as broad and/or technical as you see fit. There is no limitations in this 
+regard from our side.
+This presentation will take place at the beginning of the technical interview.
+ 
+We wish you good luck and are looking forward to seeing your creativity on how you tackled the deployment, as well as the presentation.
+ 
+Content structure of the presentation
+	• Cover (Topic, Date, Name, Graphic)
+	• Table of contents (represents the structure of the content)
+	• Introduction (briefly describe what it is all about, why the topic is attractive to you, why we 
+should listen to you
+	• Problems ( e.g. “Life without Terraform ”)
+	• Solutions ( e.g.“Life with Terraform”)
+	• Summary (Key Takeaways for the Reader: e.g. “You have learned today”/ “Key Message”)
+ 
+General Requirements to the presentation:
+ 
+	• Language must be English
+	• Presentation format must be ppt
+Content wise, don’t overflood the reader/ audience with your information in the 
+presentation
+	• Make it understandable so that people from all levels can refer to the presentation (from 
+graduates – senior experts)
+	• The presentation from graphical point of view shall be attractive
+Extra Points from us:
+	• Make it playful, play with the language and the graphics
+ 
+
+	• Make it informative and personal
+ 
+Your CV is interesting, however can you structure it and provide the necessary information in our way to get a better glimpse of e.g. your project experience?
+ 
+ 
+Good luck :)
