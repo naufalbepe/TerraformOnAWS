@@ -7,6 +7,7 @@ provider "aws" {
   secret_key = "A72kFQySirMynTah6gUJWSqQODde6P4y/qDDDDD"
 }
 # Creating a Security Group for WordPress
+# Thanks to Harshit Dawar for configuring most of the deployment code. 
 resource "aws_security_group" "WS-SG" {
 
   depends_on = [
@@ -259,6 +260,7 @@ resource "aws_route_table_association" "RT-IG-Association" {
   route_table_id = aws_route_table.Public-Subnet-RT.id
 }
 
+#Generate keys to access EC2 resources. 
 variable "key_name" {
   
 }
@@ -276,6 +278,7 @@ resource "aws_key_pair" "generated_key" {
     command = "echo '${tls_private_key.key-example.private_key_pem}' > ./myKey.pem"
   }
 }
+# in case terraform won't "download" the private key automatically
   output "private_key" {
   value     = tls_private_key.key-example.private_key_pem
   sensitive = true
@@ -390,6 +393,7 @@ resource "aws_instance" "Bastion-Host" {
     }
   }
   #block public access to this bucket
+  #need to figure out later on how to link Webserver EC2 to S3
 resource "aws_s3_bucket_public_access_block" "naufal-terraform-bucket3" {
   bucket = aws_s3_bucket.naufal-terraform-bucket3.id
 
